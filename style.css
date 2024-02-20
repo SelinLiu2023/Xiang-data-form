@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 3rem 0;
+}
+h1{
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+fieldset{
+    width: 50vw;
+    margin-left: 2rem;
+    border: none;
+    margin-bottom: 5rem;
+    border-top: 0.05px solid rgb(230, 228, 228);
+    border-bottom: 0.05px solid rgb(230, 228, 228);
+    padding-bottom: 2rem;
+}
+legend{
+    font-size:x-large;
+    font-weight: 700;
+    color: rgb(9, 9, 116);
+    margin: 1rem 0;
+}
+label,p{
+    display: block;
+    padding: 0.5rem 0;
+    font-size: large;
+    font-weight: 500;
+}
+input,textarea{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: large;
+    border: 0.5px solid lightgray;
+}
+.options label{
+    display: inline-block;
+    /* padding: 0.5rem; */
+    width: 7rem;
+}
+.options input{
+    display: inline-block;
+    width: 1rem;
+}
+.options{
+    margin: 0.5rem 0;
+}
+
+button{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 5rem;
+    padding: 1rem;
+    background-color: rgb(4, 184, 4);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+select{
+    font-size: large;
+    padding: 0.5rem;
+}
